@@ -1,0 +1,47 @@
+#title { background-color: blue;
+    text-align: center;
+   }
+#description {font-size: 20px;
+         text-align: justify;
+       }
+#name {
+   text-align: center;
+
+ }
+#email {
+   text-align: center;
+ }
+#number {
+   text-align: center;
+ }
+#dropdown {
+   text-align: center;
+ }
+#textarea {
+   text-align: center;
+ }
+#checkbox {
+   text-align: center;
+ }
+#submit {
+   text-align: center;
+ }
+#name-label {
+
+}
+#email-label {
+
+}
+#number-label {
+
+}
+#anim:hover {
+animation-name: background-color;
+animation-duration: 500ms;
+animation-fill-mode: forwards;
+}
+@keyframes background-color {
+100% {
+ background-color: #4791d0;
+}
+}

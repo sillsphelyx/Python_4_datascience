@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Survey form </title>
+     <link rel="stylesheet" href="./css/styling.css">
+</head>
+<body>
+<header >
+    <h1 id="title">Test Survey Form</h1>
+</header>
+<main class="container">
+<p id="description">In this form we merely experiment with the nortion of model deployment.
+The user will be required to enter the the Monthly revenue and profits after tax, upon submission the equation in the API helps with
+the computation and returns the solution.</p>
+<form form action="{{ url_for('pm_prediction1')}}" method="POST" enctype="multipart/form-data">
+
+ <div id="number">
+ <label id="number-label">Profit_After_Tax: </label>
+ <input name="Profit_After_Tax" type="number" >
+  <br><br>
+ </div>
+ <div id="number">
+ <label id="number-label">Revenue: </label>
+ <input name="Revenue" type="number">
+  <br><br>
+ </div>
+   <div id="submit">
+     <input type="submit" id=anim>
+   </div>
+</form>
+</div>
+    </div>
+    <br>
+    {{ prediction }}
+  </div>
+</main>
+</body>
